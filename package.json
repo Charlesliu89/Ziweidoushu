@@ -4,13 +4,13 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "build": "\"E:\\Code\\ziweridoushu\\.tools\\node-v24.14.0-win-x64\\node.exe\" node_modules/typescript/bin/tsc -p tsconfig.json",
-    "generate": "\"E:\\Code\\ziweridoushu\\.tools\\node-v24.14.0-win-x64\\node.exe\" dist/cli.js",
-    "generate:demo": "call \"E:\\Code\\ziweridoushu\\.tools\\node-v24.14.0-win-x64\\node.exe\" node_modules/typescript/bin/tsc -p tsconfig.json && call \"E:\\Code\\ziweridoushu\\.tools\\node-v24.14.0-win-x64\\node.exe\" dist/cli.js --year 2000 --month 1 --day 1 --hour 0 --minute 0 --gender male --target-date 2026-01-01 --out output/demo-chart.json",
-    "lint": "\"E:\\Code\\ziweridoushu\\.tools\\node-v24.14.0-win-x64\\node.exe\" node_modules/eslint/bin/eslint.js .",
-    "privacy:audit": "\"E:\\Code\\ziweridoushu\\.tools\\node-v24.14.0-win-x64\\node.exe\" scripts/privacy-audit.mjs",
-    "validate:demo": "call \"E:\\Code\\ziweridoushu\\.tools\\node-v24.14.0-win-x64\\node.exe\" node_modules/typescript/bin/tsc -p tsconfig.json && call \"E:\\Code\\ziweridoushu\\.tools\\node-v24.14.0-win-x64\\node.exe\" scripts/validate-demo-chart.mjs",
-    "test": "call \"E:\\Code\\ziweridoushu\\.tools\\node-v24.14.0-win-x64\\node.exe\" node_modules/typescript/bin/tsc -p tsconfig.json && call \"E:\\Code\\ziweridoushu\\.tools\\node-v24.14.0-win-x64\\node.exe\" scripts/validate-demo-chart.mjs && call \"E:\\Code\\ziweridoushu\\.tools\\node-v24.14.0-win-x64\\node.exe\" scripts/privacy-audit.mjs"
+    "build": "\"..\\.tools\\node-v24.14.0-win-x64\\node.exe\" node_modules/typescript/bin/tsc -p tsconfig.json",
+    "generate": "\"..\\.tools\\node-v24.14.0-win-x64\\node.exe\" dist/cli.js",
+    "generate:demo": "call \"..\\.tools\\node-v24.14.0-win-x64\\node.exe\" node_modules/typescript/bin/tsc -p tsconfig.json && call \"..\\.tools\\node-v24.14.0-win-x64\\node.exe\" dist/cli.js --year 2000 --month 1 --day 1 --hour 0 --minute 0 --gender male --target-date 2026-01-01 --out output/demo-chart.json",
+    "lint": "\"..\\.tools\\node-v24.14.0-win-x64\\node.exe\" node_modules/eslint/bin/eslint.js .",
+    "privacy:audit": "\"..\\.tools\\node-v24.14.0-win-x64\\node.exe\" scripts/privacy-audit.mjs",
+    "validate:demo": "call \"..\\.tools\\node-v24.14.0-win-x64\\node.exe\" node_modules/typescript/bin/tsc -p tsconfig.json && call \"..\\.tools\\node-v24.14.0-win-x64\\node.exe\" scripts/validate-demo-chart.mjs",
+    "test": "call \"..\\.tools\\node-v24.14.0-win-x64\\node.exe\" node_modules/typescript/bin/tsc -p tsconfig.json && call \"..\\.tools\\node-v24.14.0-win-x64\\node.exe\" scripts/validate-demo-chart.mjs && call \"..\\.tools\\node-v24.14.0-win-x64\\node.exe\" scripts/privacy-audit.mjs"
   },
   "dependencies": {
     "iztro": "^2.5.4"
